@@ -74,25 +74,3 @@ class LoginSystem:
     def close(self):
         self.db_cursor.close()
         self.db_connection.close()
-
-
-    # def login_menu(self):
-    #     print("다음 중 하나를 선택해 주세요.")
-    #     choice = int(input("1. 로그인\t 2. 회원가입\t 3. 종료\n"))
-
-    #     if choice == 1:
-    #         self.login()
-    #     elif choice == 2:
-    #         self.signup()
-    #     else:
-    #         print("--------------------")
-    #         print("오픈뱅킹 서비스를 종료합니다.")
-
-
-# if __name__ == "__main__":
-#     login_system = LoginSystem()
-#     try:
-#         login_system.create_table()
-#         login_system.login_menu()
-#     finally:
-#         login_system.close()
