@@ -1,0 +1,10 @@
+*.sqlite
+*.db
+__pycache__
+*.pyc
+.vscode
+*.pkl
+*.gz
+*.zip
+*.png
+*.jpg
